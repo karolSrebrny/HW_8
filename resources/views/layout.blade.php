@@ -22,7 +22,17 @@
         </div>
     </div>
 </div>
-
+<div class ="container">
+    <div class ="row">
+        <div class ="col">
+            <ul class ="nav">
+                <li class = "nav-item">
+                    <a class="nav-link" aria-current="page" href="index.php">Tags</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     <div class = "row">
