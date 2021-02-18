@@ -15,8 +15,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $category->slug = $_POST['slug'];
     $category->save();
     header('Location: index.php');
-}
-if ($_SERVER['REQUEST_METHOD']== 'POST') {
+   
     $tags = \App\Model\Category::find($_POST['id']);
     $tags -> title =$_POST['title'];
     $tags -> slug =$_POST['slug'];
